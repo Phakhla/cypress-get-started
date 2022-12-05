@@ -1,5 +1,5 @@
+const navbarText = Cypress.env('navbarText')
 
-const navbarText = Cypress.env('navbarText');
 context('My First Test', () => {
   beforeEach(() => {
     cy.visit('/')
